@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/MainWindow">
+        <file>icon.jpg</file>
+        <file>logbg.png</file>
+        <file>mylibrary.jpg</file>
+        <file>page.jpg</file>
+    </qresource>
+</RCC>

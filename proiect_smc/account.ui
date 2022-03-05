@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Account</class>
+ <widget class="QDialog" name="Account">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>879</width>
+    <height>419</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Account</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>891</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border-image: url(:/MainWindow/mylibrary.jpg);
+  color:white;
+}</string>
+   </property>
+   <widget class="QWidget" name="m" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>0</y>
+      <width>901</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget_2{
+border-image: url(:/MainWindow/logbg.png);
+  color:white;
+}</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>80</y>
+       <width>261</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="borrowBtn">
+        <property name="styleSheet">
+         <string notr="true">#borrowBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#borrowBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Borrow a Book</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="mybooksBtn">
+        <property name="styleSheet">
+         <string notr="true">#mybooksBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#mybooksBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>See my Books</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="manageBtn">
+        <property name="styleSheet">
+         <string notr="true">#manageBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#manageBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Manage your account</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="SignOutBtn">
+        <property name="styleSheet">
+         <string notr="true">#SignOutBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#SignOutBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Sign Out</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="mainwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

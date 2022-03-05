@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BorrowedBooks</class>
+ <widget class="QDialog" name="BorrowedBooks">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>880</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BorrowedBooks</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-20</y>
+     <width>901</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border-image: url(:/MainWindow/mylibrary.jpg);
+  color:white;
+}</string>
+   </property>
+   <widget class="QPushButton" name="backBtn">
+    <property name="geometry">
+     <rect>
+      <x>714</x>
+      <y>30</y>
+      <width>141</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#backBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#backBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+    </property>
+    <property name="text">
+     <string>Back to Main Page</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>811</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget_2{
+border-image: url(:/MainWindow/page.jpg);
+  color:white;
+}</string>
+    </property>
+    <widget class="QTableView" name="tableView">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>631</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#tableView{
+background:transparent;
+  color:rgb(88, 54, 34);
+}</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>120</y>
+       <width>161</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="returnBtn">
+        <property name="styleSheet">
+         <string notr="true">#returnBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#returnBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Return Book</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="extendBtn">
+        <property name="styleSheet">
+         <string notr="true">#extendBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#extendBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Extend Booking Time</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="readBtn">
+        <property name="styleSheet">
+         <string notr="true">#readBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#readBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Read the Book</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="mainwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

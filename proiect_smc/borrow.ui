@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Borrow</class>
+ <widget class="QDialog" name="Borrow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>887</width>
+    <height>435</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Borrow</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>901</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border-image: url(:/MainWindow/mylibrary.jpg);
+  color:white;
+}</string>
+   </property>
+   <widget class="QPushButton" name="backBtn">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>10</y>
+      <width>121</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#backBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#backBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+    </property>
+    <property name="text">
+     <string>Back to Main Page</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>811</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget_2{
+border-image: url(:/MainWindow/page.jpg);
+  color:white;
+}</string>
+    </property>
+    <widget class="QTableView" name="tableView">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>631</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#tableView{
+background:transparent;
+  color:rgb(88, 54, 34);
+}</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>140</y>
+       <width>161</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLineEdit" name="search">
+        <property name="styleSheet">
+         <string notr="true">#search{
+	background-color: rgb(56, 40, 30);
+color:white;
+}
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="SearchTitleBtn">
+        <property name="styleSheet">
+         <string notr="true">#SearchTitleBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#SearchTitleBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Search by Title</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="SearchAuthorBtn">
+        <property name="styleSheet">
+         <string notr="true">#SearchAuthorBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#SearchAuthorBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Search by Author</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="SearchIsbnBtn">
+        <property name="styleSheet">
+         <string notr="true">#SearchIsbnBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#SearchIsbnBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Search by ISBN</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="RefreshBtn">
+        <property name="styleSheet">
+         <string notr="true">#RefreshBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#RefreshBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Refresh</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="borrowBtn">
+        <property name="styleSheet">
+         <string notr="true">#borrowBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#borrowBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Borrow a Book</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="mainwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

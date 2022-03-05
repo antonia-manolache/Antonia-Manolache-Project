@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManageAccount</class>
+ <widget class="QDialog" name="ManageAccount">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>876</width>
+    <height>442</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ManageAccount</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>891</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border-image: url(:/MainWindow/mylibrary.jpg);
+  color:white;
+}</string>
+   </property>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>821</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget_2{
+border-image: url(:/MainWindow/logbg.png);
+  color:white;
+}</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>100</y>
+       <width>241</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="changeBtn">
+        <property name="styleSheet">
+         <string notr="true">#changeBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#changeBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Change Password</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="deleteBtn">
+        <property name="styleSheet">
+         <string notr="true">#deleteBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#deleteBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Delete account</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="backBtn">
+        <property name="styleSheet">
+         <string notr="true">#backBtn{
+color:white;
+background-color:rgb(88, 54, 34);
+
+border-width:0px;
+border-radius:4px;
+}
+
+#backBtn:hover{
+background-color:rgb(99, 60, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>Back to Main Page</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="mainwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>
